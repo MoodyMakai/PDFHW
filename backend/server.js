@@ -7,21 +7,11 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 
-const users = []; 
-const comments = []; 
-
 // Middleware 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "../public")));
 
 
-app.use(
-  cookieSession({
-    name: "session",
-    keys: ["superinsecurekey"], 
-    maxAge: 24 * 60 * 60 * 1000, 
-  })
-);
 
 //View Engine 
 app.engine(
@@ -30,7 +20,7 @@ app.engine(
     extname: ".hbs",
     defaultLayout: "main",
     layoutsDir: path.join(__dirname, "views/layouts"),
-    partialsDir: path.join(__dirname, "views/partials"),
+    //partialsDir: path.join(__dirname, "views/partials"),
   })
 );
 app.set("view engine", "hbs");
@@ -42,6 +32,7 @@ app.use((req, res, next) => {
   next();
 });
 
+// Middleware
 
 
 // Routes
@@ -49,10 +40,19 @@ app.use((req, res, next) => {
 // Home
 app.get("/", (req, res) => {
   res.render("index", {
-    title: "pdf page",
-    username: req.session.username,
+    title: "pdf stuff"
   });
 });
+
+
+
+
+// files 
+app.get("/files", (req, res) => {
+  res.render("files", { title: "files" });
+});
+
+
 
 
 
@@ -60,4 +60,3 @@ app.get("/", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
-
