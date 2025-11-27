@@ -3,6 +3,7 @@ const exphbs = require("express-handlebars");
 const cookieSession = require("cookie-session");
 const path = require("path");
 
+
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -12,15 +13,13 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "../public")));
 
 
-
 //View Engine 
 app.engine(
   "hbs",
   exphbs.engine({
     extname: ".hbs",
     defaultLayout: "main",
-    layoutsDir: path.join(__dirname, "views/layouts"),
-    //partialsDir: path.join(__dirname, "views/partials"),
+    layoutsDir: path.join(__dirname, "views/layouts")
   })
 );
 app.set("view engine", "hbs");
@@ -32,19 +31,15 @@ app.use((req, res, next) => {
   next();
 });
 
-// Middleware
-
-
 // Routes
 
 // Home
 app.get("/", (req, res) => {
+  //res.send("OK");
   res.render("index", {
     title: "pdf stuff"
   });
 });
-
-
 
 
 // files 
@@ -54,9 +49,6 @@ app.get("/files", (req, res) => {
 
 
 
-
-
-
-app.listen(PORT, () => {
+app.listen(PORT, "0.0.0.0", () => {
   console.log(`Server running on port ${PORT}`);
 });
