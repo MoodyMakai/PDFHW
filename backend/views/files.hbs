@@ -1,9 +1,48 @@
-{{!< layouts/main }}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>files page</title>
+    <link rel="stylesheet" href="/public/style.css">
+</head>
 
-<section class="files">
-  <h1>files</h1>
-  <p>page</p>
-  <div class="actions">
-    <a href="/" class="btn">home</a>
-  </div>
+  <section class="files">
+    <header class="page-header">
+        <h1 class="title"> PDF Library</h1>
+        <p class="subtitle">Browse our curated collection of documents.</p>
+    </header>
+
+    <main class="content-container">
+        {{#if pdfs}}
+            <div class="pdf-grid">
+                {{#each pdfs}}
+                    <div class="pdf-card">
+                        <div class="pdf-info">
+                            <h3 class="pdf-title">
+                                {{#if metadata.title}}
+                                    {{metadata.title}}
+                                {{else}}
+                                    {{name}}
+                                {{/if}}
+                            </h3>
+
+                            {{#if metadata.description}}
+                                <p class="pdf-description">{{metadata.description}}</p>
+                            {{else}}
+                                <p class="pdf-description">No description available.</p>
+                            {{/if}}
+                        </div>
+
+                        <a class="pdf-btn" href="/pdf/{{name}}">
+                            View PDF
+                        </a>
+                    </div>
+                {{/each}}
+            </div>
+        {{else}}
+            <p class="no-pdfs">No PDF documents are available at this time!</p>
+            {{pdfs}}
+        {{/if}}
+    </main>
+
 </section>
+</html>
