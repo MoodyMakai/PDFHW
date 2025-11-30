@@ -1,7 +1,7 @@
 const path = require('path');
 
 const fs = require('fs');
-
+//this does the leg work of discovering the pdfs and meta data which it then returns to the server
 function getPdfs(dir) {
     const pdfs = [];
 

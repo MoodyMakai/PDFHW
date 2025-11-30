@@ -2613,3 +2613,84 @@
 2025/11/29 17:13:48 [error] 186#186: unexpected DNS response for backend-nodejs
 2025/11/29 17:13:48 [error] 186#186: unexpected DNS response for backend-nodejs
 2025/11/29 17:13:48 [error] 186#186: unexpected DNS response for backend-nodejs
+2025/11/29 17:14:17 [error] 186#186: unexpected DNS response for backend-nodejs
+2025/11/29 17:14:31 [error] 186#186: unexpected DNS response for backend-nodejs
+2025/11/29 17:14:32 [error] 186#186: unexpected DNS response for backend-nodejs
+2025/11/29 17:27:34 [error] 186#186: unexpected DNS response for backend-nodejs
+2025/11/29 17:27:34 [error] 186#186: unexpected DNS response for backend-nodejs
+2025/11/29 17:27:34 [error] 186#186: unexpected DNS response for backend-nodejs
+2025/11/29 17:27:34 [error] 186#186: unexpected DNS response for backend-nodejs
+2025/11/29 18:06:50 [warn] 195#195: 512 worker_connections are not enough, reusing connections
+2025/11/29 18:06:50 [alert] 195#195: *533 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "64.225.63.240"
+2025/11/29 18:06:57 [error] 195#195: *535 open() "/var/www/html/login" failed (2: No such file or directory), client: 167.94.138.182, server: localhost-nginx-proxy-manager, request: "GET /login HTTP/1.1", host: "64.225.63.240"
+2025/11/29 18:08:07 [error] 195#195: *536 open() "/var/www/html/sitemap.xml.gz" failed (2: No such file or directory), client: 52.167.144.187, server: localhost-nginx-proxy-manager, request: "GET /sitemap.xml.gz HTTP/1.1", host: "sitemap.swifthvacandrefrigeration.com"
+2025/11/30 20:13:17 [error] 195#195: *5 open() "/var/www/html/index.htm" failed (2: No such file or directory), client: 18.201.20.177, server: localhost-nginx-proxy-manager, request: "GET /index.htm HTTP/1.0", host: "www.swifthvacandrefrigeration.com", referrer: "https://www.netcraft.com/survey/"
+2025/11/30 20:21:26 [error] 195#195: wrong ident 59284 in DNS response for backend-nodejs, expect 220
+2025/11/30 20:21:26 [error] 195#195: wrong ident 164 in DNS response for backend-nodejs, expect 59854
+2025/11/30 20:21:26 [error] 195#195: wrong ident 59284 in DNS response for backend-nodejs, expect 220
+2025/11/30 20:21:27 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 20:21:27 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 20:21:27 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 20:21:27 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 20:21:27 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 20:21:27 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 20:21:27 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 20:21:27 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 20:33:38 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 20:33:38 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 20:33:38 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 20:33:38 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 20:33:38 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 20:33:38 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 20:33:38 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 20:33:38 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 20:33:38 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 20:33:38 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 20:33:38 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 20:33:39 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 20:59:03 [error] 186#186: unexpected DNS response for backend-nodejs
+2025/11/30 20:59:04 [error] 186#186: unexpected DNS response for backend-nodejs
+2025/11/30 21:13:24 [error] 196#196: unexpected DNS response for backend-nodejs
+2025/11/30 21:13:25 [error] 196#196: unexpected DNS response for backend-nodejs
+2025/11/30 21:13:25 [error] 196#196: unexpected DNS response for backend-nodejs
+2025/11/30 21:13:25 [error] 196#196: unexpected DNS response for backend-nodejs
+2025/11/30 21:13:26 [error] 196#196: unexpected DNS response for backend-nodejs
+2025/11/30 21:13:26 [error] 196#196: unexpected DNS response for backend-nodejs
+2025/11/30 21:13:26 [error] 196#196: unexpected DNS response for backend-nodejs
+2025/11/30 21:13:26 [error] 196#196: unexpected DNS response for backend-nodejs
+2025/11/30 21:13:45 [error] 196#196: unexpected DNS response for backend-nodejs
+2025/11/30 21:13:46 [error] 196#196: unexpected DNS response for backend-nodejs
+2025/11/30 21:13:46 [error] 196#196: unexpected DNS response for backend-nodejs
+2025/11/30 22:54:24 [alert] 186#186: 512 worker_connections are not enough
+2025/11/30 22:54:24 [error] 186#186: *506 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "64.225.63.240"
+2025/11/30 22:54:47 [error] 186#186: *509 open() "/var/www/html/wiki" failed (2: No such file or directory), client: 167.94.138.42, server: localhost-nginx-proxy-manager, request: "GET /wiki HTTP/1.1", host: "64.225.63.240"
+2025/11/30 22:55:59 [error] 186#186: *519 open() "/var/www/html/wp-includes/wlwmanifest.xml" failed (2: No such file or directory), client: 104.236.100.191, server: localhost-nginx-proxy-manager, request: "GET /wp-includes/wlwmanifest.xml HTTP/1.1", host: "swifthvacandrefrigeration.com"
+2025/11/30 22:56:00 [error] 186#186: *519 open() "/var/www/html/xmlrpc.php" failed (2: No such file or directory), client: 104.236.100.191, server: localhost-nginx-proxy-manager, request: "GET /xmlrpc.php?rsd HTTP/1.1", host: "swifthvacandrefrigeration.com"
+2025/11/30 22:56:01 [error] 186#186: *519 open() "/var/www/html/blog/wp-includes/wlwmanifest.xml" failed (2: No such file or directory), client: 104.236.100.191, server: localhost-nginx-proxy-manager, request: "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.1", host: "swifthvacandrefrigeration.com"
+2025/11/30 22:56:01 [error] 186#186: *519 open() "/var/www/html/web/wp-includes/wlwmanifest.xml" failed (2: No such file or directory), client: 104.236.100.191, server: localhost-nginx-proxy-manager, request: "GET /web/wp-includes/wlwmanifest.xml HTTP/1.1", host: "swifthvacandrefrigeration.com"
+2025/11/30 22:56:02 [error] 186#186: *519 open() "/var/www/html/wordpress/wp-includes/wlwmanifest.xml" failed (2: No such file or directory), client: 104.236.100.191, server: localhost-nginx-proxy-manager, request: "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.1", host: "swifthvacandrefrigeration.com"
+2025/11/30 22:56:02 [error] 186#186: *519 open() "/var/www/html/website/wp-includes/wlwmanifest.xml" failed (2: No such file or directory), client: 104.236.100.191, server: localhost-nginx-proxy-manager, request: "GET /website/wp-includes/wlwmanifest.xml HTTP/1.1", host: "swifthvacandrefrigeration.com"
+2025/11/30 22:56:03 [error] 186#186: *519 open() "/var/www/html/wp/wp-includes/wlwmanifest.xml" failed (2: No such file or directory), client: 104.236.100.191, server: localhost-nginx-proxy-manager, request: "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.1", host: "swifthvacandrefrigeration.com"
+2025/11/30 22:56:04 [error] 186#186: *519 open() "/var/www/html/news/wp-includes/wlwmanifest.xml" failed (2: No such file or directory), client: 104.236.100.191, server: localhost-nginx-proxy-manager, request: "GET /news/wp-includes/wlwmanifest.xml HTTP/1.1", host: "swifthvacandrefrigeration.com"
+2025/11/30 22:56:04 [error] 186#186: *519 open() "/var/www/html/2018/wp-includes/wlwmanifest.xml" failed (2: No such file or directory), client: 104.236.100.191, server: localhost-nginx-proxy-manager, request: "GET /2018/wp-includes/wlwmanifest.xml HTTP/1.1", host: "swifthvacandrefrigeration.com"
+2025/11/30 22:56:05 [error] 186#186: *519 open() "/var/www/html/2019/wp-includes/wlwmanifest.xml" failed (2: No such file or directory), client: 104.236.100.191, server: localhost-nginx-proxy-manager, request: "GET /2019/wp-includes/wlwmanifest.xml HTTP/1.1", host: "swifthvacandrefrigeration.com"
+2025/11/30 22:56:06 [error] 186#186: *519 open() "/var/www/html/shop/wp-includes/wlwmanifest.xml" failed (2: No such file or directory), client: 104.236.100.191, server: localhost-nginx-proxy-manager, request: "GET /shop/wp-includes/wlwmanifest.xml HTTP/1.1", host: "swifthvacandrefrigeration.com"
+2025/11/30 22:56:07 [error] 186#186: *519 open() "/var/www/html/wp1/wp-includes/wlwmanifest.xml" failed (2: No such file or directory), client: 104.236.100.191, server: localhost-nginx-proxy-manager, request: "GET /wp1/wp-includes/wlwmanifest.xml HTTP/1.1", host: "swifthvacandrefrigeration.com"
+2025/11/30 22:56:09 [error] 186#186: *519 open() "/var/www/html/test/wp-includes/wlwmanifest.xml" failed (2: No such file or directory), client: 104.236.100.191, server: localhost-nginx-proxy-manager, request: "GET /test/wp-includes/wlwmanifest.xml HTTP/1.1", host: "swifthvacandrefrigeration.com"
+2025/11/30 22:56:13 [error] 186#186: *519 open() "/var/www/html/media/wp-includes/wlwmanifest.xml" failed (2: No such file or directory), client: 104.236.100.191, server: localhost-nginx-proxy-manager, request: "GET /media/wp-includes/wlwmanifest.xml HTTP/1.1", host: "swifthvacandrefrigeration.com"
+2025/11/30 22:56:17 [error] 186#186: *519 open() "/var/www/html/wp2/wp-includes/wlwmanifest.xml" failed (2: No such file or directory), client: 104.236.100.191, server: localhost-nginx-proxy-manager, request: "GET /wp2/wp-includes/wlwmanifest.xml HTTP/1.1", host: "swifthvacandrefrigeration.com"
+2025/11/30 22:56:17 [error] 186#186: *519 open() "/var/www/html/site/wp-includes/wlwmanifest.xml" failed (2: No such file or directory), client: 104.236.100.191, server: localhost-nginx-proxy-manager, request: "GET /site/wp-includes/wlwmanifest.xml HTTP/1.1", host: "swifthvacandrefrigeration.com"
+2025/11/30 22:56:18 [error] 186#186: *519 open() "/var/www/html/cms/wp-includes/wlwmanifest.xml" failed (2: No such file or directory), client: 104.236.100.191, server: localhost-nginx-proxy-manager, request: "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.1", host: "swifthvacandrefrigeration.com"
+2025/11/30 22:56:20 [error] 186#186: *519 open() "/var/www/html/sito/wp-includes/wlwmanifest.xml" failed (2: No such file or directory), client: 104.236.100.191, server: localhost-nginx-proxy-manager, request: "GET /sito/wp-includes/wlwmanifest.xml HTTP/1.1", host: "swifthvacandrefrigeration.com"
+2025/11/30 23:24:32 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 23:24:32 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 23:24:32 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 23:24:32 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 23:24:32 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 23:24:32 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 23:24:32 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 23:24:32 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 23:24:32 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 23:24:32 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 23:24:33 [error] 195#195: unexpected DNS response for backend-nodejs
+2025/11/30 23:24:34 [error] 195#195: unexpected DNS response for backend-nodejs

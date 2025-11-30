@@ -1,12 +1,12 @@
 const express = require('express');
 const path = require("path");
-const valid = require('./pdfValidate');
+const validate = require('./pdfValidate');
 const response = require('./pdfDiscovery')
 
 const PDF_DIR = path.join(__dirname, '..', 'pdfs');
 
 const route = express.Router();
-
+//responsible for routing the pdfs through the server, finds pdfs in directory and creates path
 
 route.get('/', (req, res) => {
     const pdfs = response(PDF_DIR);
@@ -15,13 +15,9 @@ route.get('/', (req, res) => {
 
 route.get('/:name', (req, res) => {
     const pdfName = req.params.name;
-    const result = valid(pdfName, PDF_DIR);
+    const result = validate(pdfName, PDF_DIR);
 
-    if (!result.ok) {
-        return res.status(404).send("file not found");
-    }
-
-    res.sendFile(result.fullPath);
+    res.sendFile(result.adress);
 });
 
 
